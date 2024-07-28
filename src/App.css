@@ -1,45 +1,47 @@
 /* styles.css */
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: #f0f0f0;
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #f0f0f0;
 }
 
 .login .heading {
-  text-align: left;
-  font-weight: lighter;
-  font-size: 30px;
+	text-align: left;
+	font-weight: lighter;
+	font-size: 30px;
 }
 
 .login h2 {
-  margin-top: 0;
-  padding-top: 0;
-  text-align: left;
-  font-size: 40px !important;
+	margin-top: 0;
+	padding-top: 0;
+	text-align: left;
+	font-size: 40px !important;
 }
 
 .login label {
-  color: rgb(54, 54, 54);
-  font-size: 20px;
+	color: rgb(54, 54, 54);
+	font-size: 20px;
 }
 
 .login .forgotpwd {
-  text-align: center;
-  color: #625BF7;
+	text-align: center;
+	color: #625BF7;
 
 
 }
-.login .signup a{
-  color: #333333;
+
+.login .signup a {
+	color: #333333;
 }
-.login .signup .signuptitle{
-  color: #625BF7;
+
+.login .signup .signuptitle {
+	color: #625BF7;
 
 }
 
@@ -51,35 +53,36 @@ body {
 } */
 
 
-.profile-heading{
-  text-align: center;
-  text-decoration: underline;
-  font-weight: light;
-  font-size: 50px;
+.profile-heading {
+	text-align: center;
+	text-decoration: underline;
+	font-weight: light;
+	font-size: 50px;
 }
+
 input {
-  display: block;
-  margin: 10px 0;
-  padding: 10px;
-  width: 100%;
-  height: 40px !important;
-  font-size: 25px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+	display: block;
+	margin: 10px 0;
+	padding: 10px;
+	width: 100%;
+	height: 40px !important;
+	font-size: 25px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
 }
 
 button {
-  padding: 10px;
-  width: 100%;
-  border: none;
-  border-radius: 4px;
-  background: linear-gradient(180deg, #625BF7 0%, #463EEA 100%);
-  ;
-  color: white;
-  font-size: 16px;
-  cursor: pointer;
+	padding: 10px;
+	width: 100%;
+	border: none;
+	border-radius: 4px;
+	background: linear-gradient(180deg, #625BF7 0%, #463EEA 100%);
+	;
+	color: white;
+	font-size: 16px;
+	cursor: pointer;
 }
 
 button:hover {
-  background-color: #0056b3;
+	background-color: #0056b3;
 }
